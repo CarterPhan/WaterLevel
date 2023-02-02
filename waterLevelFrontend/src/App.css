@@ -1,0 +1,344 @@
+// add all CSS here!
+
+main {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+div.headerTile{
+  background: rgb(66,145,152);
+  display: flex;
+  flex-direction: row;
+}
+
+#bigLogo{
+  font-weight: 800;
+  font-size: 28px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  margin-top: 45px;
+  margin-left: 150px;
+  margin-bottom: 45px;
+}
+
+div.bigBox{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+  max-width: 1350px;
+  max-height: 400px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+div.bodyTile{
+  float: left;
+  width: 58%;
+  align-items: center;
+
+}
+
+div.bodyTile2{
+  float: right;
+  width: 34%;
+  align-items: center;
+  margin-left: 25px;
+}
+
+div.body_element{
+  margin-top: 10px;
+  margin-right: 39px;
+  align-items: center;
+  justify-content: center;
+}
+
+#p1{
+  font-size: 16px;
+}
+
+#p2{
+  font-size: 16px;
+}
+div.PlaceholderDiv {
+	background: black;
+}
+
+#seeButton {
+  display: block;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background: rgb(66,145,152);
+  border: rgb(66,145,152);
+  width: 140px;
+  height: 40px;
+  border-radius: 5px 5px 5px 5px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+img{
+  max-width: 400px;
+  height: auto;
+}
+
+#p3{
+  max-width: 390px;
+  font-size: 12px;
+}
+
+div.bodyTile3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 550px;
+  max-height: 400px;
+  margin-top: 50px;
+  
+  margin-left: 140px;
+  margin-bottom: 40px;
+}
+div.bodyTile4{
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: flex-start;
+	max-width: 550px;
+}
+
+div.body2.element{
+  float: left;
+}
+
+#bar1{
+  width: 100%;
+}
+
+div.body3_element{
+  float: right;
+  width: 100%;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+#month{
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: rgb(66,145,152);
+	height: 25%;
+	width: 50%;
+}
+
+#monthPick{
+  margin-top: 10px;
+	margin-left: -50px;
+}
+
+
+@media (max-width: 900px) { /* tablet */
+  div.headerTile{
+    background: rgb(66,145,152);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 900px;
+  }
+  
+  #bigLogo{
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 200px;
+    
+  }
+
+  div.bigBox{
+    display: flex;
+  	flex-wrap: wrap;
+  	flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+  }
+  
+  div.bodyTile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+    width: 78%;
+  }
+  
+  div.bodyTile2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -750px;
+    width: 78%;
+  }
+	
+  div.bodyTile4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -475px;
+    width: 78%;
+  }
+	#monthDiv {
+		margin-left: 75px;
+	}
+	#monthPick {
+		margin-left: 0px;
+	}
+
+  img{
+    max-width: 550px;
+    height: auto;
+    
+  }
+  
+  #p3{
+    max-width: 550px;
+    font-size: 12px;
+  }
+
+  #seeButton {
+    margin-top: 25px;
+    margin-right: 450px;
+  }
+
+  div.bodyTile3{
+    position: relative;
+    margin-top: 500px;
+    width: 59%;
+    margin-left: 190px;
+  }
+
+  div.body2_element{
+    margin-top: 500px;
+  }
+  
+  div.body3_element{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -25px;
+  }
+  
+  #p4{
+    width: 100%;
+  }
+
+  #month{
+    margin-top: 100px;
+		margin-left: -265px;
+  }
+
+}
+
+@media (max-width: 480px) { /* phone */
+  div.headerTile{
+    background: rgb(66,145,152);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 480px;
+  }
+  
+  #bigLogo{
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-left: 100px;
+    width: 60%;
+    text-align: center;
+  }
+
+  div.bigBox{
+    position: relative;
+    display: flex;
+  	flex-wrap: wrap;
+  	flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+  }
+  
+  div.bodyTile{
+
+    margin-left: -50px;
+    margin-top: 325px;
+  }
+  
+  div.bodyTile2{
+    margin-right: -310px;
+  }
+
+	div.bodyTile4{
+    margin-left: -290px;
+		margin-top: 20px;
+  }
+	#monthDiv {
+		margin-left: -20px;
+	}
+	#monthPick {
+		margin-left: 0px;
+	}
+	#month{
+    margin-top: 100px;
+		margin-left: -200px;
+  }
+
+  div.body_element{
+    width: 125%;
+  }
+
+  img{
+    max-width: 350px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  #p3{
+    max-width: 350px;
+    font-size: 12px;
+    width: 135%;
+    margin-left: 70px;
+  }
+  
+  #seeButton {
+    margin-top: 35px;
+    margin-left: 230px;
+  }
+
+  div.bodyTile3{
+    margin-top: 550px;
+    margin-left: 90px;
+
+  }
+
+  #p4{
+    width: 120%;
+  }
+  
+  #month{
+    margin-top: 150px;
+  }
+
+  #bar1{
+    margin-top: 600px;
+    margin-left: -25px;
+    width: 130%;
+  }
+}
